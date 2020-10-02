@@ -1,0 +1,25 @@
+{
+  "name": "bluebirds",
+  "version": "1.0.0",
+  "description": "The official bluesbirds website and page",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "next build",
+    "start": "next start",
+    "dev": "next"
+  },
+  "keywords": [
+    "Game",
+    "Studio",
+    "development"
+  ],
+  "author": "Josias Aurel",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
