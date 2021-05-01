@@ -4,7 +4,9 @@
   "description": "The official blog for BBGS",
   "main": "test.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "next",
+    "build": "next build"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,8 @@
+
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    margin: 0 auto;
+}

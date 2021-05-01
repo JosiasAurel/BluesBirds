@@ -1,0 +1,90 @@
+
+.heroContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    font-size: 4em;
+    font-family: monospace;
+    max-width: 500px;
+}
+
+.wutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wut {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em 1em 0 1em;
+}
+
+.wut div {
+    background-color: white;
+    margin: 1em;
+    border-radius: 6px;
+    max-width: 400px;
+    padding: 1em;
+}
+
+.wut p, .wut h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+.wut div:hover {
+    background-color: rgba(0, 0, 255, 0.438);
+}
+
+.whereContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.where {
+    background-color: rgba(0, 0, 255, 0.438);
+    height: 100px;
+    width: 80vw;
+    font-family: monospace;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.where h1 {
+    margin: 0 0 0 2em;
+    font-size: 2em;
+}
+
+.where button {
+    max-height: 50%;
+    border: solid transparent;
+    background-color:#5270dd;
+    padding: 1em 2em 1em 2em;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.438);
+    font-family: monospace;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 3em;
+}
